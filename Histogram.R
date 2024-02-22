@@ -1,0 +1,7 @@
+data(iris)
+head(iris)
+summary(iris)
+hist(iris$Sepal.Length, main="Histogram of Sepal Length", xlab="Sepal Length")
+hist(iris$Sepal.Width, main="Histogram of Sepal Width", xlab="Sepal Width")
+hist(iris$Petal.Length, main="Histogram of Petal Length", xlab="Petal Length")
+hist(iris$Petal.Width, main="Histogram of Petal Width", xlab="Petal Width")
